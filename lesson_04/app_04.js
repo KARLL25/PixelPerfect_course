@@ -17,20 +17,29 @@ console.log(screenValue)
 
 let question = confirm('Нужен ли респонсивный сайт?');
 console.log(question)
+
 let service1 = prompt('Какой сервис нужен?');
 console.log(service1)
+
 let servicePrice1 = +prompt('Сколько это будет стоить');
 console.log(servicePrice1)
+
 let service2 = prompt('Какой еще сервис тебе нужен?');
 console.log(service2)
+
 let servicePrice2 = +prompt('Сколько будет стоить этот второй сервис?')
 console.log(servicePrice2)
+
 let fullPrice = screenPrice + servicePrice1 + servicePrice2
 console.log(fullPrice)
 
-let percentage = 15;
+// Расчет процента подрядчику
+
+let percentage = 10;
 let servicePercentPrice = Math.round(fullPrice - (fullPrice * percentage / 100))
 console.log(servicePercentPrice)
+
+// Предоставление скидки
 
 if (fullPrice > 50000) {
     console.log('Сделаем скидку 10%');
