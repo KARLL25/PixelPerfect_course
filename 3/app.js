@@ -1,15 +1,10 @@
-let titleProject = 'Оценка стоимости';
-let screenValue = {
-    screen1: 'шаблонные',
-    screen2: 'с уникальным дизайном',
-    screen3: 'с анимациями'
-}
+let titleProject = 'Оценка стоимости'
+let screenValue = 'шаблонные, с уникальным дизайном, с анимациями'
 
-let screenPrice = 5000;
-let percentage = 20;
-let fullPrice = 10000;
-let responsive = true;
+let screenPrice = 10000
+let percentage = 10
+let fullPrice = 100000
+let responsive = true
 
-console.log(screenValue)
-console.log(titleProject, screenPrice, percentage, fullPrice, responsive);
+console.log(titleProject, screenValue, screenPrice, percentage, fullPrice, responsive)
 
