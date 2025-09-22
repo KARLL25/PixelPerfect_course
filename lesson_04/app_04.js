@@ -10,14 +10,23 @@ let screenPrice = 10000;
 
 
 let titleProject = prompt('Название проекта?');
-let screenValue = prompt('Шаблонные, с уникальным дизайном или с анимациями?');
-let question = confirm('Нужен ли респонсивный сайт?');
-let service1 = prompt('Какой сервис нужен?');
-let servicePrice1 = +prompt('Сколько это будет стоить');
-let service2 = prompt('Какой еще сервис тебе нужен?');
-let servicePrice2 = +prompt('Сколько будет стоить этот второй сервис?')
+console.log(titleProject)
 
+let screenValue = prompt('Шаблонные, с уникальным дизайном или с анимациями?');
+console.log(screenValue)
+
+let question = confirm('Нужен ли респонсивный сайт?');
+console.log(question)
+let service1 = prompt('Какой сервис нужен?');
+console.log(service1)
+let servicePrice1 = +prompt('Сколько это будет стоить');
+console.log(servicePrice1)
+let service2 = prompt('Какой еще сервис тебе нужен?');
+console.log(service2)
+let servicePrice2 = +prompt('Сколько будет стоить этот второй сервис?')
+console.log(servicePrice2)
 let fullPrice = screenPrice + servicePrice1 + servicePrice2
+console.log(fullPrice)
 
 let percentage = 15;
 let servicePercentPrice = Math.round(fullPrice - (fullPrice * percentage / 100))
