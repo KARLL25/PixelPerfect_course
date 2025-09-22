@@ -1,36 +1,15 @@
-// Number
-// bigint
-// String
-// Boolean
-// Undefined 
-// Null
-// Symbol 
-// Object
-
-const age = 22;
-console.log(typeof age);
-
-const bigInt = 182738291379812738n;
-console.log(typeof bigInt);
-
-const firstName = 'Name';
-console.log(typeof firstName);
-
-let age2;
-console.log(typeof age2);
-
-const obj = {
-    name: 'George',
-    age: 28,
-    isWorked: true
+let titleProject = 'Оценка стоимости';
+let screenValue = {
+    screen1: 'шаблонные',
+    screen2: 'с уникальным дизайном',
+    screen3: 'с анимациями'
 }
 
+let screenPrice = 5000;
+let percentage = 20;
+let fullPrice = 10000;
+let responsive = true;
 
-const num = 10;
-const num2 = 5;
+console.log(screenValue)
+console.log(titleProject, screenPrice, percentage, fullPrice, responsive);
 
-console.log(num + num2);
-console.log(num - num2);
-console.log(num * num2);
-console.log(num / num2);
-console.log(num % num2);
